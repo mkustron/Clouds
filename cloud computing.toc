@@ -1,0 +1,23 @@
+\contentsline {chapter}{Rozdzia\PlPrIeC {\l }\ 1\relax .\kern .5em Cloud computing: przetwarzanie w chmurze}{1}
+\contentsline {section}{\numberline {1.1\relax .\kern .5em }Definicja chmury obliczeniowej i przetwarzania w chmurze}{1}
+\contentsline {section}{\numberline {1.2\relax .\kern .5em }Rodzaje chmur}{2}
+\contentsline {section}{\numberline {1.3\relax .\kern .5em }Modele typu: Services}{2}
+\contentsline {section}{\numberline {1.4\relax .\kern .5em }Modele typy: Deployment}{2}
+\contentsline {chapter}{Rozdzia\PlPrIeC {\l }\ 2\relax .\kern .5em Architektura chmury}{3}
+\contentsline {section}{\numberline {2.1\relax .\kern .5em }Infrastruktura}{3}
+\contentsline {section}{\numberline {2.2\relax .\kern .5em }Platformy}{3}
+\contentsline {section}{\numberline {2.3\relax .\kern .5em }Wirtualizacja}{3}
+\contentsline {section}{\numberline {2.4\relax .\kern .5em }Komunikacja}{3}
+\contentsline {chapter}{Rozdzia\PlPrIeC {\l }\ 3\relax .\kern .5em Bezpiecze\'nstwo chmury}{4}
+\contentsline {section}{\numberline {3.1\relax .\kern .5em }Wprowadzenie}{4}
+\contentsline {section}{\numberline {3.2\relax .\kern .5em }Zabezpieczenie danych w chmurze}{4}
+\contentsline {section}{\numberline {3.3\relax .\kern .5em }Planowanie bezpiecze\'nstwa w systemie}{4}
+\contentsline {section}{\numberline {3.4\relax .\kern .5em }Autoryzacja to\.zsamo\'sci w chmurze}{4}
+\contentsline {chapter}{Rozdzia\PlPrIeC {\l }\ 4\relax .\kern .5em Firmy oferuj\k ace us\IeC {\l }ugi prztwarzania w chmurze}{5}
+\contentsline {section}{\numberline {4.1\relax .\kern .5em }Google}{5}
+\contentsline {section}{\numberline {4.2\relax .\kern .5em }Amazon}{5}
+\contentsline {section}{\numberline {4.3\relax .\kern .5em }Windows Azure}{5}
+\contentsline {chapter}{Rozdzia\PlPrIeC {\l }\ 5\relax .\kern .5em Przetwarzanie w chmurze w praktyce}{6}
+\contentsline {section}{\numberline {5.1\relax .\kern .5em }Windows Azure}{6}
+\contentsline {chapter}{Rozdzia\PlPrIeC {\l }\ 6\relax .\kern .5em Wnioski}{7}
+\contentsline {chapter}{Bibliografia}{8}

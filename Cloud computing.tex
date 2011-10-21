@@ -1,0 +1,36 @@
+% *************** LEd - dokument oparty na szablonie pracy magisterskiej ***************
+%&latex--translate-file=il2-pl
+\documentclass[12pt,a4paper,oneside,sfheadings]{mwbk}
+\input{style.tex}
+
+
+\begin{document}
+% *************** Front matter ***************
+\frontmatter
+\input{front.tex}
+
+% *************** Main matter ***************
+\mainmatter
+%\input{ack//ack.tex}
+\input{chap1//chap1.tex}
+\input{chap2//chap2.tex}
+\input{chap3//chap3.tex}
+\input{chap4//chap4.tex}
+\input{chap5//chap5.tex}
+\input{chap6//chap6.tex}
+
+% *************** Bibliography ***************
+\bibliographystyle{plain}
+{\small\bibliography{Cloud computing.bib}}
+
+
+% *************** Appendixes ***************
+%\appendix
+%\appendixpage*
+%\input{app1//app1.tex}
+
+% *************** Back matter ***************
+%\backmatter
+%\input{back.tex}
+
+\end{document}
