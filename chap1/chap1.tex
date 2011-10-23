@@ -1,7 +1,7 @@
 % ********** Rozdzia³ 1 **********
 \chapter{Cloud computing: przetwarzanie w~chmurze}
 \label{sec:chapter1}
-Przetwarzanie w chmurze odnosi siê do aplikacji i us³ug które uruchomione s¹ w rozproszonej sieci, u¿ywaj¹cych zwirtualizowanych zasobów. Us³ugi te dostêpne s¹ przez powszechnie u¿ywane protoko³y internetowe. Cechy aplikacji i us³ug uruchomianych w chmurze, które czyni¹ cloud computing innowacyjnym i prze³omowym, to nieograniczona iloœæ wirtualnych zasobów oraz oderwanie u¿ytkownika od infrastruktury i detali systemu na którym oprogramowanie jest uruchomione. %\newline{\color{red} Poprawiæ akapit}
+Przetwarzanie w chmurze odnosi siê do aplikacji i us³ug, które uruchomione s¹ w rozproszonej sieci, u¿ywaj¹cych zwirtualizowanych zasobów. Us³ugi te dostêpne s¹ przez powszechnie u¿ywane protoko³y internetowe. Cechy aplikacji i us³ug uruchomianych w chmurze, które czyni¹ cloud computing innowacyjnym i prze³omowym, to nieograniczona iloœæ wirtualnych zasobów oraz oderwanie u¿ytkownika od infrastruktury i detali systemu na którym oprogramowanie jest uruchomione. %\newline{\color{red} Poprawiæ akapit}
 
 \indent
 %Zdefiniowano kilka typów chmur aby lepiej opisaæ przetwarzanie w chmurze. W tym rozdziale opisane s¹ dwie ró¿ne klasy chmur, oparte na sposobie rozmieszczenia oraz oparte na rodzaju us³ug jakie s¹ dostarczane przez us³ugodawcê. 
@@ -20,28 +20,32 @@ Chmura obliczeniowa mo¿e zostaæ zdefiniowana jako model przetwarzania danych i i
 \indent
 Pojêcie ,,chmury'' odnosi siê bezpoœrednio do dwóch koncepcji, abstrakcji i wirtualizacji.
 
-\begin{itemize}
-\item  Abstrakcja to ukrycie przed u¿ytkownikiem detali implementacji systemowej. Us³ugi i aplikacje uruchomione s¹ w fizycznym systemie którego specyfikacja nie jest widoczna, dane przechowywane s¹ w lokacjach nieznanych, administracj¹ systemu zajmuje siê us³ugodawca a dostêp do us³ug jest wszêdzie obecny. 
-\item Wirtualizacja. Systemy w chmurze s¹ wirtualizowane poprzez dzielenie, skalowanie oraz przydzielanie zasobów. Dowolna iloœæ mocy obliczeniowej oraz pamiêci jest przydzielana je¿eli tylko jest potrzebna z scentralizowanej infrastruktury. Koszta obliczane s¹ na podstawie wymiernych wskaŸników, zapewniona jest wielow¹tkowoœæ, a zasoby przydzielane s¹ bardzo precyzyjnie.
-\end{itemize}
+\begin{description}
+\item [Abstrakcja] To ukrycie przed u¿ytkownikiem detali implementacji systemowej. Us³ugi i aplikacje uruchomione s¹ w fizycznym systemie którego specyfikacja nie jest widoczna, dane przechowywane s¹ w lokacjach nieznanych, administracj¹ systemu zajmuje siê us³ugodawca a dostêp do us³ug jest wszêdzie obecny. 
+\item [Wirtualizacja] Systemy w chmurze s¹ wirtualizowane poprzez dzielenie, skalowanie oraz przydzielanie zasobów. Dowolna iloœæ mocy obliczeniowej oraz pamiêci jest przydzielana je¿eli tylko jest potrzebna z scentralizowanej infrastruktury. Koszta obliczane s¹ na podstawie wymiernych wskaŸników, zapewniona jest wielow¹tkowoœæ, a zasoby przydzielane s¹ bardzo precyzyjnie.
+\end{description}
 
 \indent
 Przetwarzanie w chmurze to aplikacje oferowane jako us³ugi oraz infrastruktura sprzêtowa i oprogramowanie systemowe ulokowane w centrach danych.
 Instytut NIST\footnote[1]{National Institute of Standards and Technology.} w dokumencie ,,The NIST Definition of Cloud Computing''\footnote[2]{http://www.au.af.mil/au/awc/awcgate/nist/cloud-def-v15.doc}
- stara siê zdefiniowaæ pojêcie Cloud Computing, zaznaczaj¹c jednoczeœnie, ¿e jest to wci¹¿ ewoluuj¹cy paradygmat, wiêc jego definicja, przypadki u¿ycia, wykorzystywane technologie, problemy, wady i zalety bêd¹ przedyskutowane w debatach w publicznym i prywatnym sektorze. Przetwarzanie w chmurze jest reprezentowane przez wielu us³ugodawców, wiele modeli i nisz rynkowych. Definicja ta stara siê zawrzeæ te wszystkie, ró¿ne podejœcia do przetwarzania w  chmurze, brzmi ona nastêpuj¹co:
+ stara siê zdefiniowaæ pojêcie Cloud Computing, zaznaczaj¹c jednoczeœnie, ¿e jest to wci¹¿ ewoluuj¹cy paradygmat, wiêc jego definicja, przypadki u¿ycia, wykorzystywane technologie, problemy, wady i zalety bêd¹ przedyskutowane w debatach w publicznym i prywatnym sektorze. Przetwarzanie w chmurze jest reprezentowane przez wielu us³ugodawców, wiele modeli i nisz rynkowych. Definicja ta stara siê zawrzeæ te wszystkie, ró¿ne podejœcia do przetwarzania w  chmurze. Brzmi ona nastêpuj¹co:
 \begin{quote}
 \textit{Przetwarzanie w chmurze to model oferuj¹cy wygodny dostêp sieciowy do dzielonych i konfigurowalnych zasobów komputerowych (tj. serwerów, pamiêci masowych, aplikacji i us³ug), które mog¹ byæ w razie potrzeby szybko przydzielane lub zwalniane z minimalnym udzia³em us³ugodawcy. Ten model promuje dostêpnoœæ i jest kompozycj¹ piêciu istotnych cech, trzech modeli typu services oraz czterech modeli typu deployments.}\cite{instRaport}
+\newline{\color{red} Cytat przet³umaczony z angielskiego przez autora, jak to zaznaczyæ?}
 \end{quote}
 
 \noindent Cechy przetwarzania w chmurze o których mowa w cytacie to:
-\begin{itemize}
-\item \textbf{On-demand self-servic}
-\item \textbf{Broad network access}
-\item \textbf{Resources pooling}
-\item \textbf{Rapid elasticity}
-\item \textbf{Measured Service}
-\end{itemize}
 
+\begin{description}
+\item [\textbf{On-demand self-servic}] Mo¿liwoœæ automatycznego nabycia przez u¿ytkownika mocy obliczeniowej i pamiêci, bez potrzeby kontaktu z personelem us³ugodawcy
+\item [\textbf{Broad network access}] Mo¿liwoœci chmury osi¹galne s¹ sieciowo i dostêpne poprzez standardowe mechanizmy promuj¹ce ró¿norodne platformy klienckie
+\item [\textbf{Resources pooling}] Moc obliczeniowa us³ugodawcy jest dzielona miêdzy wielu klientów, którym dynamicznie przydzielane oraz zwalniane s¹ zasoby fizyczne i wirtualne. Zasoby te przydzielane s¹ równie¿ ¿¹danie konsumenta. Konsument nie ma kontroli nad dok³adna lokalizacj¹ zasobów us³ugodawcy, ale mo¿e j¹ okreœliæ na wy¿szym poziomie abstrakcji (np. kraj, stan lub centrum danych). Przyk³ady zasobów to: pamiêæ, moc obliczeniowa, przepustowoœæ i maszyny wirtualne.
+\item [\textbf{Rapid elasticity}] Zasoby mog¹ byæ szybko, elastycznie i w niektórych przypadkach automatycznie przyznawane oraz zwalniane. Dla konsumenta zasoby zadaj¹ siê byæ nieograniczone, dostêpne w dowolnej iloœci w ka¿dym czasie.
+\item [\textbf{Measured Service}] Systemy w chmurach automatycznie kontroluj¹ i optymalizuj¹ zasoby aby mo¿na by³o mierzyæ je na jakimœ poziomie abstrakcji w³aœciwym dla typu us³ugi(np. wykorzystywana pamiêæ, moc obliczeniowa, przepustowoœæ i aktywne konta u¿ytkowników). U¿yte zasoby mog¹ byæ monitorowane, kontrolowane i raportowane, ¿eby zapewniæ przejrzystoœæ dla us³ugodawcy jak i dla us³ugobiorcy.
+\end{description}
+
+\ident
+cechy cloud computing wg Gartner Newsroom: http://www.gartner.com/it/page.jsp?id=1035013
 %-----------Podrozdzia³ 2--------------
 \section{Rodzaje chmur}
 \label{sec:chapter1:sec12}
@@ -51,7 +55,7 @@ Instytut NIST\footnote[1]{National Institute of Standards and Technology.} w dok
 \label{sec:chapter1:sec13}
 
 %-----------Podrozdzia³ 4--------------
-\section{Modele typy: Deployment}
+\section{Modele typu: Deployment}
 \label{sec:chapter1:sec14}
 
 
