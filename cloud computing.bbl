@@ -1,3 +1,10 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{instRaport}
+Peter~Mell i~Tim~Grance.
+\newblock The nist definition of cloud computing.
+\newblock Technical report, National Institute of Standards and Technology,
+  Information Technology Laboratory, Paüadziernik 2009.
+\newblock Wersja 15.
 
 \end{thebibliography}

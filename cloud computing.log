@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2011.9.26)  22 OCT 2011 00:20
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=latex 2011.10.23)  23 OCT 2011 19:08
 entering extended mode
 **cloud*computing.tex
 ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\cloud computing.tex"
@@ -52,11 +52,10 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files\MiKTeX\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: dvips.def on input line 91.
 
-("C:\Program Files\MiKTeX\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2010/09/14 v0.05b Graphics/color for pdfTeX
-\Gread@gobject=\count88
+("C:\Program Files\MiKTeX\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
@@ -86,13 +85,13 @@ Package: amsbsy 1999/11/29 v1.2d
 ("C:\Program Files\MiKTeX\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count89
+\inf@bad=\count88
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count90
-\leftroot@=\count91
+\uproot@=\count89
+\leftroot@=\count90
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count92
-\DOTSCASE@=\count93
+\classnum@=\count91
+\DOTSCASE@=\count92
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -101,15 +100,15 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen110
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count94
-\c@MaxMatrixCols=\count95
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count96
-\dspbrk@lvl=\count97
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
 \tag@help=\toks16
-\row@=\count98
-\column@=\count99
-\maxfields@=\count100
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
 \andhelp@=\toks17
 \eqnshift@=\dimen111
 \alignsep@=\dimen112
@@ -158,12 +157,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen124
 \cmidrulekern=\dimen125
 \defaultaddspace=\dimen126
-\@cmidla=\count101
-\@cmidlb=\count102
+\@cmidla=\count100
+\@cmidlb=\count101
 \@aboverulesep=\dimen127
 \@belowrulesep=\dimen128
-\@thisruleclass=\count103
-\@lastruleclass=\count104
+\@thisruleclass=\count102
+\@lastruleclass=\count103
 \@thisrulewidth=\dimen129
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\stmaryrd\stmaryrd.sty"
@@ -182,16 +181,16 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip50
 \LTpre=\skip51
 \LTpost=\skip52
-\LTchunksize=\count105
+\LTchunksize=\count104
 \LTcapwidth=\dimen130
 \LT@head=\box28
 \LT@firsthead=\box29
 \LT@foot=\box30
 \LT@lastfoot=\box31
-\LT@cols=\count106
-\LT@rows=\count107
-\c@LT@tables=\count108
-\c@LT@chunks=\count109
+\LT@cols=\count105
+\LT@rows=\count106
+\c@LT@tables=\count107
+\c@LT@chunks=\count108
 \LT@p@ftn=\toks26
 )
 ("C:\Program Files\MiKTeX\tex\latex\rotating\rotating.sty"
@@ -200,7 +199,7 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 ("C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count110
+\c@r@tfl@t=\count109
 \rotFPtop=\skip53
 \rotFPbot=\skip54
 \rot@float@box=\box32
@@ -212,8 +211,11 @@ Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 ("C:\Program Files\MiKTeX\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
-)
+Package color Info: Driver file: dvips.def on input line 130.
+
+("C:\Program Files\MiKTeX\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
 ("C:\Program Files\MiKTeX\tex\latex\polski\polski.sty"
 Package: polski 2008/02/24 v1.3.3 Polish language package
 
@@ -281,11 +283,7 @@ Package color Info: Redefining color cyan on input line 79.
 Package color Info: Redefining color green on input line 89.
 Package color Info: Redefining color black on input line 101.
 Package color Info: Redefining color white on input line 102.
-) ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\cloud computing.aux"
-
-LaTeX Warning: Label `sec:chapter3' multiply defined.
-
-)
+) ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\cloud computing.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
@@ -300,19 +298,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
- ("C:\Program Files\MiKTeX\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen131
-\scratchbox=\box33
-\nofMPsegments=\count112
-\nofMParguments=\count113
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen132
-\MPnumerator=\count115
-\everyMPtoPDFconversion=\toks31
-) ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\front.tex"
+
+("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\front.tex"
 LaTeX Font Info:    Try loading font information for OT4+cmss on input line 10.
 
 
@@ -321,7 +308,7 @@ File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 ) [1
 
 
-{C:/Users/Qju/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+]
 LaTeX Font Info:    Font shape `OT4/cmss/m/it' in size <12> not available
 (Font)              Font shape `OT4/cmss/m/sl' tried instead on input line 57.
  [2
@@ -368,6 +355,12 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 1.
 ]
 ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\chap1//chap1.tex"
 Rozdzia\PlPrIeC {\l } 1.
+
+Overfull \hbox (10.44029pt too wide) in paragraph at lines 10--12
+[][]\OT4/cmr/m/n/12 Przetwarzanie w chmu-rze re-pre-zen-tu-je zmia-n¦ w spo-so-
+bie wdra-»a-nia i utrzy-
+ []
+
 [1
 
 ]
@@ -379,58 +372,41 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <7> on input line 30.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <5> on input line 30.
- [2]) ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\chap2//chap2.tex"
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+[3]) ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\chap2//chap2.tex"
 Rozdzia\PlPrIeC {\l } 2.
-[3
+[4
 
 ]) ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\chap3//chap3.tex"
 Rozdzia\PlPrIeC {\l } 3.
-[4
+[5
 
 ]) ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\chap4//chap4.tex"
 Rozdzia\PlPrIeC {\l } 4.
-[5
+[6
 
 ]) ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\chap5//chap5.tex"
 Rozdzia\PlPrIeC {\l } 5.
-[6
+[7
 
 ]) ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\chap6//chap6.tex"
 Rozdzia\PlPrIeC {\l } 6.
-[7
+[8
 
-]) ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\cloud computing.bbl"
+]) ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\cloud computing.bbl") [
+9
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [8
-
-] ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\cloud computing.aux")
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] ("C:\qju\PWR\Praca magisterska\Cloud Computing\LaTeX\cloud computing.aux") ) 
 Here is how much of TeX's memory you used:
- 3091 strings out of 494019
- 40164 string characters out of 3148248
- 93149 words of memory out of 3000000
- 6261 multiletter control sequences out of 15000+200000
- 23769 words of font info for 73 fonts, out of 3000000 for 9000
+ 2815 strings out of 494020
+ 36930 string characters out of 3148270
+ 82685 words of memory out of 3000000
+ 5989 multiletter control sequences out of 15000+200000
+ 23342 words of font info for 72 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 29i,7n,24p,821b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/pl/plrm.enc}{C:/Program Files/MiKTeX
-/fonts/enc/dvips/pl/plit.enc}<C:/Program Files/MiKTeX/fonts/type1/public/pl/plb
-x10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/pl/plr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/pl/plr7.pfb><
-C:/Program Files/MiKTeX/fonts/type1/public/pl/plr8.pfb><C:/Program Files/MiKTeX
-/fonts/type1/public/pl/plss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/p
-l/plss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/pl/plssbx10.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/public/pl/plssi12.pfb><C:/Program Files/MiKTeX/f
-onts/type1/public/pl/plti10.pfb>
-Output written on "cloud computing.pdf" (11 pages, 107021 bytes).
-PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 29i,7n,24p,825b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on "cloud computing.dvi" (12 pages, 24048 bytes).
