@@ -3,15 +3,15 @@
 \documentclass[12pt,a4paper,oneside,sfheadings]{mwbk}
 \input{style.tex}
 
-
 \begin{document}
-\bibliographystyle{plain}
+
 % *************** Front matter ***************
 \frontmatter
 \input{front.tex}
 
 % *************** Main matter ***************
 \mainmatter
+\rmfamily
 %\input{ack//ack.tex}
 \input{chap1//chap1.tex}
 \input{chap2//chap2.tex}
@@ -21,8 +21,9 @@
 \input{chap6//chap6.tex}
 
 % *************** Bibliography ***************
-%\bibliographystyle{plain}
+\bibliographystyle{unsrt}
 \bibliography{Cloudcomputing}
+\nocite{*}
 % *************** Appendixes ***************
 %\appendix
 %\appendixpage*
